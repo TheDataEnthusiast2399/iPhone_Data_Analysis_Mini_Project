@@ -25,7 +25,7 @@
     <li><strong>Discount</strong>: The discount offered on the iPhone model.</li>
     <li><strong>Color</strong>: Available colors for the iPhone model.</li>
 </ul>
-<p>Please ensure that the dataset is in CSV format and available in the project directory for the analysis to run successfully.</p>
+<p>The following dataset is used for the following project. <a href = "apple_products.csv"> Apple_iPhone_Dataset</a></p>
 
 <h2 id="#technologies-used">Technologies Used</h2>
 <ul>
