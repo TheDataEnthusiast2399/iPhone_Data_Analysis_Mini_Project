@@ -62,8 +62,8 @@
 <h2 id="#conclusion">Conclusion</h2>
 <p>This project provided insights into the iPhone Apple dataset, showcasing how basic data analysis and visualization techniques can be used to understand pricing strategies and discounts across different iPhone models. The findings can be useful for consumers making purchasing decisions and for the company in strategizing their pricing models.</p>
 
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License - see the <code>LICENSE</code> file for details.</p>
+<h2 id="#license">License</h2>
+<p>This project is licensed under the MIT License - see the <a href="LICENSE" target="_blank">LICENSE</a> file for details.</p>
 
 </body>
 </html>
