@@ -20,42 +20,50 @@
 <h2 id="#dataset">Dataset</h2>
 <p>The dataset used in this project includes the following columns:</p>
 <ul>
-    <li><strong>Model Name</strong>: The name of the iPhone model.</li>
-    <li><strong>Price</strong>: The retail price of the iPhone model.</li>
-    <li><strong>Discount</strong>: The discount offered on the iPhone model.</li>
-    <li><strong>Color</strong>: Available colors for the iPhone model.</li>
+    <li><strong>Product Name</strong>: Name of the product with its specifications.</li>
+    <li><strong>Product URL</strong>: Link to buy the product.</li>
+    <li><strong>Brand</strong>: Brand of the phone (Apple).</li>
+    <li><strong>Sale Price</strong>: Current sale price available for customers.</li>
+    <li><strong>Mrp</strong>: Original retail price in the market. </li>
+    <li><strong>Discount</strong>: Discount in percentage.</li>
+    <li><strong>Number Of Ratings</strong>: Total ratings received.</li>
+    <li><strong>Number Of Reviews</strong>: Total reviews received.</li>
+    <li><strong>Upc</strong>: Universal product code.</li>
+    <li><strong>Star Rating</strong>: Star ratings given to the product.</li>
+    <li><strong>Ram</strong>: Storage of the phone.</li>
+
+
 </ul>
 <p>The following dataset is used for the following project. <a href = "apple_products.csv"> Apple_iPhone_Dataset</a></p>
 
 <h2 id="#technologies-used">Technologies Used</h2>
 <ul>
-    <li><strong>Python 3.x</strong></li>
+    <li><strong>Python 3.x : Programming Language.</strong></li>
     <li><strong>Pandas</strong>: For data manipulation and analysis.</li>
     <li><strong>Matplotlib</strong>: For creating visualizations.</li>
-    <li><strong>Jupyter Notebook</strong>: For interactive data analysis</li>
+    <li><strong>Jupyter Notebook</strong>: For interactive and computational data analysis.</li>
 </ul>
 
 <h2 id="#data-transformation-and-analysis">Data Transformation and Analysis</h2>
 <p>In this project, the following transformations and analyses were performed:</p>
 <ul>
     <li><strong>Data Loading</strong>: Loaded the dataset using Pandas and inspected its structure.</li>
-    <li><strong>Data Cleaning</strong>: Checked for and handled missing values, and ensured data types were appropriate.</li>
+    <li><strong>Data Cleaning</strong>: Checked for and handled missing values, filled missing values with appropriate values. </li>
     <li><strong>Basic Operations</strong>: 
         <ul>
+            <li>Use of basic aggregate functions like count(), min(), max(). </li>
             <li>Grouped data by model names to count the number of occurrences.</li>
-            <li>Calculated final prices after applying discounts.</li>
-            <li>Extracted relevant features such as colors associated with each model.</li>
+            <li>Extracted relevant features such as colors associated with each model using regular expression                    library.</li>
         </ul>
     </li>
-    <li><strong>Basic Statistical Analysis</strong>: Analyzed summary statistics for pricing and discount columns.</li>
+    <li><strong>Basic Statistical Analysis</strong>: Analyzed summary statistics for pricing and discount columns,reviews recieved for each model for the customers to decide the most suited phones with their needs. </li>
 </ul>
 
 <h2 id="#visualizations">Visualizations</h2>
 <p>Visualizations were created to represent key insights from the dataset:</p>
 <ul>
     <li><strong>Scatter Plot</strong>: A scatter plot showing the relationship between the price and discount of each iPhone model.</li>
-    <li><strong>Bar Charts</strong>: Bar charts depicting the average discounts per model.</li>
-    <li><strong>Distribution Plots</strong>: Distribution of prices and discounts for a better understanding of their spread.</li>
+    <li><strong>Bar Charts</strong>: Bar charts depicting the reviews recieved for each model.</li>   
 </ul>
 <p>The visualizations help in identifying trends and outliers in the data, making it easier to draw conclusions.</p>
 
